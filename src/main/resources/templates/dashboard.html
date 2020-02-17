@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Dashboard</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+<div>
+    <form name="l" th:action="@{/logout}" method="post">
+        <fieldset>
+            <legend>Dashboard Page on successful login</legend>
+            <div clas="form-action">
+                <button type="submit" class="btn">Log out</button>
+            </div>
+        </fieldset>
+    </form>
+</div>
+
+</body>
+
+</html>
